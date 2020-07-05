@@ -6,4 +6,6 @@ services:
       dockerfile: ./docker/ruby/Dockerfile
     volumes:
       - .:/app
-
+      # - bundle_install:/app/vendor/bundle
+# volumes: 
+#   bundle_install:
